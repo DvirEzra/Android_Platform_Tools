@@ -25,6 +25,4 @@ adb shell pm grant com.procoit.kioskbrowser android.permission.SYSTEM_ALERT_WIND
 adb shell am start -n com.procoit.kioskbrowser/com.procoit.kioskbrowser.ui.Launcher
 timeout 15
 
-adb shell am broadcast -a com.procoit.kioskbrowser.SET_REGISTRATION_KEY --es registration_key "KR-SLJB9"
-
 adb shell reboot
